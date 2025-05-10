@@ -27,17 +27,17 @@ function Software() {
           data-aos-delay="200"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/icons/photoshop-lightroom.png`}
+            src="/icons/photoshop-lightroom.png"
             alt="Lightroom"
             className="w-20 h-20"
           />
           <img
-            src={`${process.env.PUBLIC_URL}/icons/icons8-snapseed-48.png`}
+            src="/icons/icons8-snapseed-48.png"
             alt="Snapseed"
             className="w-20 h-20"
           />
           <img
-            src={`${process.env.PUBLIC_URL}/icons/lens.png`}
+            src="/icons/lens.png"
             alt="Lens Distortion"
             className="w-20 h-20 rounded-2xl"
           />
