@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Hamston;
+    src: url(../src/assets/fonts/Hamston.ttf);
+}
+
+@font-face {
+    font-family: AmericanCaptain;
+    src: url(../src/assets/fonts/AmericanCaptain.ttf);
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url(../src/assets/fonts/Starjedi.ttf);
+}
+
+@font-face {
+    font-family: HeroKing;
+    src: url(../src/assets/fonts/Heroking-Regular.ttf);
+}
+
+@import "tailwindcss";
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+@theme {
+    --font-hamston: Hamston, "sans-serif";
+    --font-american: AmericanCaptain, "sans-serif";
+    --font-star: Starjedi, "sans-serif";
+    --font-hero: HeroKing, "sans-serif";
+}
+
+
+
+
+             /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
+
+  
